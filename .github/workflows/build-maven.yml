@@ -31,5 +31,5 @@ jobs:
           node-version: "14" # You can specify your preferred Node.js version here
       - name: Build Spring Boot app
         run: |
-          cd inspection-system-backend
+          cd back-end
           ./mvn clean package
