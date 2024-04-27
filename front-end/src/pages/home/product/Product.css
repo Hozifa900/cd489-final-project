@@ -1,0 +1,47 @@
+.product{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.product-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-container:hover .product-img{
+    width: 85%px !important;
+
+}
+
+.product-img{
+    transition: all 0.5s;
+    width: 80%;
+
+}
+
+.product-button{
+    padding: 0px 10px !important;
+    border-radius: 50px !important;
+}
+
+.product-button:hover{
+    padding: 1px 11px !important;
+    transition: all .1s;
+}
+
+@media screen and (max-width: 768px) {
+    .product-title{
+        font-size:medium;
+    }
+
+    .product-button{
+        padding: 0px 5px !important;
+        font-size: small;
+    }
+
+}
+
+
+
+

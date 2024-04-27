@@ -1,0 +1,39 @@
+#cart{
+    height: 80vh;
+}
+
+.next-back-button{
+    display: flex;
+    justify-content: space-between;
+   
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+
+.empty-cart{
+    width: 300px;
+}
+
+.empty-cart-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error{
+    margin-top: -15px;
+    margin-bottom: 10px;
+    color: rgb(255, 110, 110);
+    font-size: small;
+    display:block;
+}
+
+@media screen and (max-width: 768px) {
+    #cart{
+        margin-bottom:50px;
+        height: 85vh;
+    }
+}
